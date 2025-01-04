@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         "lora": ["Lora", "sans-serif"],
         "open-sans": ["Open Sans", "sans-serif"],
+        "fontello": ["fontello", "sans-serif"],
       },
       keyframes: {
         'to-right-from-left': {
