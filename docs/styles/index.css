@@ -12,7 +12,6 @@
   outline-color: #235269;
 }
 
-
 @layer base {
   html {
     font-family: "Open Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -23,4 +22,13 @@
   .container {
     @apply max-w-[1180px] w-full mx-auto px-[24px] md:px-[48px];
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444;
 }
