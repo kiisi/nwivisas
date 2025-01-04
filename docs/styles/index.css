@@ -18,3 +18,9 @@
     font-family: "Open Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
   }
 }
+
+@layer components {
+  .container {
+    @apply max-w-[1180px] w-full mx-auto px-[24px] md:px-[48px];
+  }
+}
