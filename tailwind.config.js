@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./docs/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "lora": ["Lora", "sans-serif"],
+        "open-sans": ["Open Sans", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }
