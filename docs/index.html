@@ -19,7 +19,7 @@
     <!-- TOP BAR -->
     <section class="border-b-[1px] border-b-[#f2f2f2]">
       <div
-        class="max-w-[1180px] w-full mx-auto px-[20px] text-[#235269] bg-white flex flex-col sm:flex-row sm:justify-between"
+        class="max-w-[1180px] w-full mx-auto px-[24px] md:px-[48px] text-[#235269] bg-white flex flex-col sm:flex-row sm:justify-between"
       >
         <div class="py-[6px] text-[12px]">
           <div class="flex flex-wrap gap-y-3 justify-center">
@@ -121,9 +121,9 @@
     </section>
 
     <!-- NAVIGATION BAR -->
-    <nav class="bg-opacity-90">
+    <nav class="bg-opacity-95 sticky top-0 bg-white">
       <div
-        class="py-[26px] gap-4 flex flex-col-reverse min-[312px]:flex-row flex-wrap items-center max-w-[1180px] w-full mx-auto px-[20px] flex justify-between"
+        class="py-[26px] gap-4 flex flex-col-reverse min-[312px]:flex-row flex-wrap items-center max-w-[1180px] w-full mx-auto px-[24px] md:px-[48px] flex justify-between"
       >
         <figure class="mr-auto">
           <a class="" href="/"
@@ -178,7 +178,7 @@
       <!-- COLLAPSED MOBILE NAVIGATION BAR MENU -->
       <div
         id="navigation-bar-mobile-menu"
-        class="bg-white bg-opacity-90 overflow-hidden transition-[max-height,opacity] duration-300 ease-in-out opacity-0"
+        class="bg-white bg-opacity-95 overflow-hidden transition-[max-height,opacity] duration-300 ease-in-out opacity-0"
         style="max-height: 0px"
       >
         <div class="border-t border-t-[#e6e6e6]"></div>
@@ -215,7 +215,31 @@
         <div class="border-b border-b-[#e6e6e6]"></div>
       </div>
     </nav>
-  </body>
 
+    <!-- HERO  -->
+    <section
+      class="bg-[url('../assets/images/website-banner-mobile-2023.png')] lg:bg-[url('../assets/images/nwi-banner-25.jpg')] bg-cover py-[75px] md:py-[100px] lg:py-[150px]"
+    >
+      <div class="max-w-[1180px] w-full mx-auto px-[24px] md:px-[48px]">
+        <div class="max-w-[470px]">
+          <h1
+            class="text-white tracking-[2px] mb-[20px] text-[32px] lg:text-[46px] font-semibold uppercase leading-[45px] lg:leading-[55px]"
+          >
+            Get Your Immigration Assessment FREE
+          </h1>
+          <p class="text-[#ededed] mb-[40px] text-[14px] lg:text-[18px] leading-[28px]">
+            After 10 years of perfecting the Immigration experience, we are
+            proud to say, we are finally there!
+          </p>
+          <a
+            href="/free-assessment/"
+            title="Free Assessment"
+            class="bg-[#27c229] text-[14px] py-[9px] px-[22px] text-white text-white tracking-[1px] uppercase font-medium rounded-[4px]"
+            >Free Assessment ›</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
   <script src="./scripts/index.js" type="module"></script>
 </html>

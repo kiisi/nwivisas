@@ -566,6 +566,14 @@ html {
   position: relative;
 }
 
+.sticky{
+  position: sticky;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .mx-\[4px\]{
   margin-left: 4px;
   margin-right: 4px;
@@ -582,6 +590,14 @@ html {
 
 .mr-auto{
   margin-right: auto;
+}
+
+.mb-\[20px\]{
+  margin-bottom: 20px;
+}
+
+.mb-\[40px\]{
+  margin-bottom: 40px;
 }
 
 .flex{
@@ -622,6 +638,10 @@ html {
 
 .max-w-\[1180px\]{
   max-width: 1180px;
+}
+
+.max-w-\[470px\]{
+  max-width: 470px;
 }
 
 .cursor-pointer{
@@ -692,16 +712,16 @@ html {
   border-bottom-width: 1px;
 }
 
-.border-t{
-  border-top-width: 1px;
-}
-
 .border-l{
   border-left-width: 1px;
 }
 
 .border-r{
   border-right-width: 1px;
+}
+
+.border-t{
+  border-top-width: 1px;
 }
 
 .border-\[\#ddd\]{
@@ -719,11 +739,6 @@ html {
   border-bottom-color: rgb(242 242 242 / var(--tw-border-opacity, 1));
 }
 
-.border-t-\[\#e6e6e6\]{
-  --tw-border-opacity: 1;
-  border-top-color: rgb(230 230 230 / var(--tw-border-opacity, 1));
-}
-
 .border-l-\[\#f2f2f2\]{
   --tw-border-opacity: 1;
   border-left-color: rgb(242 242 242 / var(--tw-border-opacity, 1));
@@ -734,13 +749,43 @@ html {
   border-right-color: rgb(242 242 242 / var(--tw-border-opacity, 1));
 }
 
+.border-t-\[\#e6e6e6\]{
+  --tw-border-opacity: 1;
+  border-top-color: rgb(230 230 230 / var(--tw-border-opacity, 1));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#27c229\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 194 41 / var(--tw-bg-opacity, 1));
+}
+
 .bg-opacity-90{
   --tw-bg-opacity: 0.9;
+}
+
+.bg-opacity-95{
+  --tw-bg-opacity: 0.95;
+}
+
+.bg-\[url\(\'\.\/assets\/images\/nwi-banner-25\.jpg\'\)\]{
+  background-image: url('./assets/images/nwi-banner-25.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/nwi-banner-25\.jpg\'\)\]{
+  background-image: url('../assets/images/nwi-banner-25.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/website-banner-mobile-2023\.png\'\)\]{
+  background-image: url('../assets/images/website-banner-mobile-2023.png');
+}
+
+.bg-cover{
+  background-size: cover;
 }
 
 .px-4{
@@ -778,6 +823,41 @@ html {
   padding-bottom: 6px;
 }
 
+.py-\[250px\]{
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.py-\[200px\]{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.px-\[22px\]{
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.py-\[9px\]{
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.px-\[24px\]{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-\[100px\]{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.py-\[75px\]{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 .text-\[12px\]{
   font-size: 12px;
 }
@@ -794,8 +874,48 @@ html {
   font-size: 24px;
 }
 
+.text-\[46px\]{
+  font-size: 46px;
+}
+
+.text-\[32px\]{
+  font-size: 32px;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
 .uppercase{
   text-transform: uppercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.leading-\[55px\]{
+  line-height: 55px;
+}
+
+.leading-\[45px\]{
+  line-height: 45px;
+}
+
+.leading-\[28px\]{
+  line-height: 28px;
+}
+
+.tracking-\[1px\]{
+  letter-spacing: 1px;
+}
+
+.tracking-\[2px\]{
+  letter-spacing: 2px;
 }
 
 .text-\[\#235269\]{
@@ -811,6 +931,16 @@ html {
 .text-\[\#bbb\]{
   --tw-text-opacity: 1;
   color: rgb(187 187 187 / var(--tw-text-opacity, 1));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#ededed\]{
+  --tw-text-opacity: 1;
+  color: rgb(237 237 237 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0{
@@ -982,6 +1112,18 @@ html {
   }
 }
 
+@media (min-width: 768px){
+  .md\:px-\[48px\]{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .md\:py-\[100px\]{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 @media (min-width: 1024px){
   .lg\:block{
     display: block;
@@ -989,5 +1131,31 @@ html {
 
   .lg\:h-\[60px\]{
     height: 60px;
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/images\/nwi-banner-25\.jpg\'\)\]{
+    background-image: url('../assets/images/nwi-banner-25.jpg');
+  }
+
+  .lg\:py-\[200px\]{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .lg\:py-\[150px\]{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .lg\:text-\[46px\]{
+    font-size: 46px;
+  }
+
+  .lg\:text-\[18px\]{
+    font-size: 18px;
+  }
+
+  .lg\:leading-\[55px\]{
+    line-height: 55px;
   }
 }
