@@ -612,6 +612,28 @@ html {
   }
 }
 
+.btn-link{
+  border-radius: 3px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 82 105 / var(--tw-bg-opacity, 1));
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.btn-link:hover{
+  --tw-bg-opacity: 0.8;
+}
+
 .absolute{
   position: absolute;
 }
@@ -640,6 +662,10 @@ html {
   z-index: 99999;
 }
 
+.float-left{
+  float: left;
+}
+
 .mx-\[4px\]{
   margin-left: 4px;
   margin-right: 4px;
@@ -648,6 +674,10 @@ html {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .mb-\[10px\]{
@@ -666,6 +696,10 @@ html {
   margin-bottom: 40px;
 }
 
+.mb-\[4px\]{
+  margin-bottom: 4px;
+}
+
 .mb-\[5px\]{
   margin-bottom: 5px;
 }
@@ -682,12 +716,20 @@ html {
   margin-left: auto;
 }
 
+.mr-\[12px\]{
+  margin-right: 12px;
+}
+
 .mr-auto{
   margin-right: auto;
 }
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.block{
+  display: block;
 }
 
 .flex{
@@ -748,6 +790,10 @@ html {
   width: 32px;
 }
 
+.w-\[36px\]{
+  width: 36px;
+}
+
 .w-\[42px\]{
   width: 42px;
 }
@@ -758,6 +804,10 @@ html {
 
 .w-full{
   width: 100%;
+}
+
+.max-w-\[1170px\]{
+  max-width: 1170px;
 }
 
 .max-w-\[1180px\]{
@@ -839,6 +889,10 @@ html {
 
 .gap-y-3{
   row-gap: 0.75rem;
+}
+
+.gap-y-6{
+  row-gap: 1.5rem;
 }
 
 .gap-y-8{
@@ -939,6 +993,11 @@ html {
   background-color: rgb(39 194 41 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#444444\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 68 68 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#efefef\]{
   --tw-bg-opacity: 1;
   background-color: rgb(239 239 239 / var(--tw-bg-opacity, 1));
@@ -1031,6 +1090,11 @@ html {
   padding-bottom: 75px;
 }
 
+.py-\[8px\]{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .py-\[9px\]{
   padding-top: 9px;
   padding-bottom: 9px;
@@ -1038,6 +1102,10 @@ html {
 
 .text-center{
   text-align: center;
+}
+
+.text-\[10px\]{
+  font-size: 10px;
 }
 
 .text-\[11px\]{
@@ -1072,6 +1140,14 @@ html {
   font-size: 32px;
 }
 
+.text-\[8px\]{
+  font-size: 8px;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
 .font-light{
   font-weight: 300;
 }
@@ -1086,6 +1162,14 @@ html {
 
 .uppercase{
   text-transform: uppercase;
+}
+
+.leading-\[12px\]{
+  line-height: 12px;
+}
+
+.leading-\[16px\]{
+  line-height: 16px;
 }
 
 .leading-\[23px\]{
@@ -1111,6 +1195,11 @@ html {
 .text-\[\#235269\]{
   --tw-text-opacity: 1;
   color: rgb(35 82 105 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#444444\]{
+  --tw-text-opacity: 1;
+  color: rgb(68 68 68 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#444\]{
@@ -1247,9 +1336,9 @@ h6 {
   bottom: 0px;
 }
 
-.after\:bottom-\[-8px\]::after{
+.after\:bottom-\[4px\]::after{
   content: var(--tw-content);
-  bottom: -8px;
+  bottom: 4px;
 }
 
 .after\:left-0::after{
@@ -1257,39 +1346,9 @@ h6 {
   left: 0px;
 }
 
-.after\:left-\[33px\]::after{
-  content: var(--tw-content);
-  left: 33px;
-}
-
-.after\:left-\[42px\]::after{
-  content: var(--tw-content);
-  left: 42px;
-}
-
-.after\:left-\[34px\]::after{
-  content: var(--tw-content);
-  left: 34px;
-}
-
 .after\:left-\[24px\]::after{
   content: var(--tw-content);
   left: 24px;
-}
-
-.after\:bottom-\[0px\]::after{
-  content: var(--tw-content);
-  bottom: 0px;
-}
-
-.after\:bottom-\[-4px\]::after{
-  content: var(--tw-content);
-  bottom: -4px;
-}
-
-.after\:bottom-\[4px\]::after{
-  content: var(--tw-content);
-  bottom: 4px;
 }
 
 .after\:h-\[1\.5px\]::after{
@@ -1317,16 +1376,6 @@ h6 {
   font-family: fontello, sans-serif;
 }
 
-.after\:text-\[24px\]::after{
-  content: var(--tw-content);
-  font-size: 24px;
-}
-
-.after\:text-\[20px\]::after{
-  content: var(--tw-content);
-  font-size: 20px;
-}
-
 .after\:text-\[18px\]::after{
   content: var(--tw-content);
   font-size: 18px;
@@ -1351,6 +1400,15 @@ h6 {
 .after\:\[text-shadow\:_0_2px_0_\#eee\]::after{
   content: var(--tw-content);
   text-shadow: 0 2px 0 #eee;
+}
+
+.hover\:bg-opacity-80:hover{
+  --tw-bg-opacity: 0.8;
+}
+
+.hover\:text-\[\#235269\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(35 82 105 / var(--tw-text-opacity, 1));
 }
 
 .hover\:after\:bg-\[\#235269\]:hover::after{
@@ -1503,6 +1561,10 @@ h6 {
 
   .lg\:h-\[60px\]{
     height: 60px;
+  }
+
+  .lg\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4{
