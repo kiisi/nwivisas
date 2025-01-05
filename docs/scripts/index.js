@@ -38,7 +38,7 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 1.5,
+    slidesPerView: 2,
     breakpoints: {
         375: {
             slidesPerView: 2,
