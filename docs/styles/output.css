@@ -1180,6 +1180,11 @@ html {
   padding-bottom: 0.5rem;
 }
 
+.py-\[12px\]{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .py-\[14px\]{
   padding-top: 14px;
   padding-bottom: 14px;
@@ -1233,11 +1238,6 @@ html {
 .py-\[9px\]{
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.py-\[12px\]{
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 .pb-4{
@@ -1358,6 +1358,10 @@ html {
 
 .tracking-\[2px\]{
   letter-spacing: 2px;
+}
+
+.tracking-\[\.5px\]{
+  letter-spacing: .5px;
 }
 
 .text-\[\#235269\]{
