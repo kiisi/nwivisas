@@ -12,8 +12,5 @@
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.17"
-  },
-  "dependencies": {
-    "swiper": "^11.2.0"
   }
 }

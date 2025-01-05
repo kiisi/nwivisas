@@ -25,3 +25,32 @@ window.addEventListener('resize', () => {
         isMenuOpen = false;
     }
 });
+
+
+var swiper = new Swiper(".mySwiper", {
+    rewind: true,
+    spaceBetween: 1,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 1.5,
+    breakpoints: {
+        375: {
+            slidesPerView: 2,
+        },
+        425: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 5,
+        },
+    },
+});
