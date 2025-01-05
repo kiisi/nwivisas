@@ -20,11 +20,19 @@
 
 @layer components {
   .container {
-    @apply max-w-[1180px] w-full mx-auto px-[24px] md:px-[48px];
+    @apply max-w-[1240px] w-full mx-auto px-[24px] md:px-[48px];
   }
 
   .btn-link {
     @apply px-[15px] py-[5px] bg-[#235269] text-white rounded-[3px] text-[12px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
+  }
+  
+  .btn-medium {
+    @apply px-[18px] py-[7px] bg-[#235269] text-white rounded-[3px] text-[14px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
+  }
+
+  .btn-large {
+    @apply px-[22px] py-[9px] bg-[#235269] text-white rounded-[3px] text-[14px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
   }
 }
 
@@ -59,8 +67,8 @@ h6 {
 }
 
 .swiper-button-next, .swiper-button-prev{
-  width: 24px !important;
-  height: 24px !important;
+  width: 28px !important;
+  height: 28px !important;
   display: grid;
   place-items: center;
   background-color: #f2f2f2;
@@ -69,6 +77,8 @@ h6 {
   top: -20px; */
   position: static !important;
   margin-top: 0 !important;
+  transition: 300ms ease-in-out;
+  font-weight: 700;
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover {
