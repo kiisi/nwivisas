@@ -121,3 +121,17 @@ h6 {
   opacity: 1;
   transform: scale(1);
 }
+
+.navigation-bar-dropdown{
+  position: relative;
+}
+
+.navigation-bar-dropdown-item {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  width: calc(100% + 40px);
+  transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out;
+  /* display: none; */
+}
