@@ -99,3 +99,25 @@ h6 {
   box-shadow: 0 0 25px rgba(0, 0, 0, .04) inset;
   -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .04) inset;
 }
+
+.modal-overlay {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-content {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.modal-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-overlay.show .modal-content {
+  opacity: 1;
+  transform: scale(1);
+}
