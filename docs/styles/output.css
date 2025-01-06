@@ -752,14 +752,6 @@ html {
   z-index: 9999;
 }
 
-.col-span-2{
-  grid-column: span 2 / span 2;
-}
-
-.row-span-2{
-  grid-row: span 2 / span 2;
-}
-
 .row-start-2{
   grid-row-start: 2;
 }
@@ -890,10 +882,6 @@ html {
   height: 120px;
 }
 
-.h-\[138px\]{
-  height: 138px;
-}
-
 .h-\[32px\]{
   height: 32px;
 }
@@ -942,6 +930,10 @@ html {
 
 .h-screen{
   height: 100vh;
+}
+
+.max-h-\[138px\]{
+  max-height: 138px;
 }
 
 .max-h-\[320px\]{
@@ -999,10 +991,6 @@ html {
 
 .max-w-\[1170px\]{
   max-width: 1170px;
-}
-
-.max-w-\[294px\]{
-  max-width: 294px;
 }
 
 .max-w-\[470px\]{
@@ -1324,6 +1312,11 @@ html {
   padding-right: 15px;
 }
 
+.px-\[16px\]{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .px-\[18px\]{
   padding-left: 18px;
   padding-right: 18px;
@@ -1337,11 +1330,6 @@ html {
 .px-\[22px\]{
   padding-left: 22px;
   padding-right: 22px;
-}
-
-.px-\[24px\]{
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .py-16{
@@ -1422,11 +1410,6 @@ html {
 .py-\[9px\]{
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.px-\[16px\]{
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .pb-4{
@@ -2244,6 +2227,11 @@ h6 {
     background-image: url('../assets/images/nwi-banner-25.jpg');
   }
 
+  .lg\:px-\[24px\]{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
   .lg\:px-\[30px\]{
     padding-left: 30px;
     padding-right: 30px;
@@ -2252,11 +2240,6 @@ h6 {
   .lg\:py-\[150px\]{
     padding-top: 150px;
     padding-bottom: 150px;
-  }
-
-  .lg\:px-\[24px\]{
-    padding-left: 24px;
-    padding-right: 24px;
   }
 
   .lg\:text-\[18px\]{
