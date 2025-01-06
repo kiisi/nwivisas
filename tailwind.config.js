@@ -7,6 +7,7 @@ module.exports = {
         "lora": ["Lora", "sans-serif"],
         "open-sans": ["Open Sans", "sans-serif"],
         "fontello": ["fontello", "sans-serif"],
+        "nunito-sans": ["Nunito Sans", "sans-serif"],
       },
       keyframes: {
         'to-right-from-left': {
