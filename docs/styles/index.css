@@ -25,15 +25,15 @@
   }
 
   .btn-link {
-    @apply px-[15px] py-[5px] bg-[#235269] text-white rounded-[3px] text-[12px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
+    @apply px-[15px] py-[5px] bg-primary text-white rounded-[3px] text-[12px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
   }
   
   .btn-medium {
-    @apply px-[18px] py-[7px] bg-[#235269] text-white rounded-[3px] text-[14px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
+    @apply px-[18px] py-[7px] bg-primary text-white rounded-[3px] text-[14px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
   }
 
   .btn-large {
-    @apply px-[22px] py-[9px] bg-[#235269] text-white rounded-[3px] text-[14px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
+    @apply px-[22px] py-[9px] bg-primary text-white rounded-[3px] text-[14px] uppercase font-light transition-all duration-300 hover:bg-opacity-80;
   }
 }
 

@@ -3,6 +3,10 @@ module.exports = {
   content: ["./docs/**/*.{html,js}"],
   theme: {
     extend: {
+      colors: {
+        primary: "#03357c",
+        secondary: "#9bdef6",
+      },
       fontFamily: {
         "lora": ["Lora", "sans-serif"],
         "open-sans": ["Open Sans", "sans-serif"],
