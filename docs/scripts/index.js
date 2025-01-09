@@ -29,7 +29,7 @@ window.addEventListener('resize', () => {
 
 var swiper = new Swiper(".mySwiper", {
     rewind: true,
-    spaceBetween: 1,
+    spaceBetween: 4,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,

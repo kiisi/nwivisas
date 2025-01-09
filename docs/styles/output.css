@@ -878,8 +878,8 @@ html {
   height: 1.5rem;
 }
 
-.h-\[120px\]{
-  height: 120px;
+.h-\[140px\]{
+  height: 140px;
 }
 
 .h-\[32px\]{
@@ -1271,32 +1271,21 @@ html {
   --tw-bg-opacity: 0.95;
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/login-bg\.jpeg\'\)\]{
-  background-image: url('../assets/images/login-bg.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/assets\/images\/website-banner-mobile-2023\.png\'\)\]{
-  background-image: url('../assets/images/website-banner-mobile-2023.png');
-}
-
 .bg-\[url\(\'\.\.\/assets\/images\/home-hero-desktop\.jpg\'\)\]{
   background-image: url('../assets/images/home-hero-desktop.jpg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/home-hero-desktop\.png\'\)\]{
-  background-image: url('../assets/images/home-hero-desktop.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/images\/home-hero-mobile\.jpg\'\)\]{
-  background-image: url('../assets/images/home-hero-mobile.jpg');
-}
-
-.bg-\[url\(\'\.\.\/assets\/images\/home-hero-mobile-1\.jpg\'\)\]{
-  background-image: url('../assets/images/home-hero-mobile-1.jpg');
+.bg-\[url\(\'\.\.\/assets\/images\/login-bg\.jpeg\'\)\]{
+  background-image: url('../assets/images/login-bg.jpeg');
 }
 
 .bg-cover{
   background-size: cover;
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .p-2{
@@ -1669,12 +1658,6 @@ html {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.backdrop-blur-lg{
-  --tw-backdrop-blur: blur(16px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 .transition-\[max-height\2c opacity\]{
   transition-property: max-height,opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -2021,12 +2004,6 @@ h6 {
   width: 100%;
 }
 
-.hover\:after\:bg-primary:hover::after{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 53 124 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:after\:bg-secondary:hover::after{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -2249,22 +2226,6 @@ h6 {
 
   .lg\:gap-y-10{
     row-gap: 2.5rem;
-  }
-
-  .lg\:bg-\[url\(\'\.\.\/assets\/images\/nwi-banner-25\.jpg\'\)\]{
-    background-image: url('../assets/images/nwi-banner-25.jpg');
-  }
-
-  .lg\:bg-\[url\(\'\.\.\/assets\/images\/home-hero-desktop\.jpg\'\)\]{
-    background-image: url('../assets/images/home-hero-desktop.jpg');
-  }
-
-  .lg\:bg-\[url\(\'\.\.\/assets\/images\/home-hero-mobile-1\.jpg\'\)\]{
-    background-image: url('../assets/images/home-hero-mobile-1.jpg');
-  }
-
-  .lg\:bg-bottom{
-    background-position: bottom;
   }
 
   .lg\:px-\[24px\]{
