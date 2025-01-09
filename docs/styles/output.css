@@ -1279,6 +1279,22 @@ html {
   background-image: url('../assets/images/website-banner-mobile-2023.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/images\/home-hero-desktop\.jpg\'\)\]{
+  background-image: url('../assets/images/home-hero-desktop.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/home-hero-desktop\.png\'\)\]{
+  background-image: url('../assets/images/home-hero-desktop.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/home-hero-mobile\.jpg\'\)\]{
+  background-image: url('../assets/images/home-hero-mobile.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/home-hero-mobile-1\.jpg\'\)\]{
+  background-image: url('../assets/images/home-hero-mobile-1.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1645,6 +1661,18 @@ html {
   --tw-shadow: 0px 3px 3px -3px #00000033;
   --tw-shadow-colored: 0px 3px 3px -3px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.backdrop-blur{
+  --tw-backdrop-blur: blur(8px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-blur-lg{
+  --tw-backdrop-blur: blur(16px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition-\[max-height\2c opacity\]{
@@ -2227,6 +2255,18 @@ h6 {
     background-image: url('../assets/images/nwi-banner-25.jpg');
   }
 
+  .lg\:bg-\[url\(\'\.\.\/assets\/images\/home-hero-desktop\.jpg\'\)\]{
+    background-image: url('../assets/images/home-hero-desktop.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/images\/home-hero-mobile-1\.jpg\'\)\]{
+    background-image: url('../assets/images/home-hero-mobile-1.jpg');
+  }
+
+  .lg\:bg-bottom{
+    background-position: bottom;
+  }
+
   .lg\:px-\[24px\]{
     padding-left: 24px;
     padding-right: 24px;
@@ -2252,5 +2292,11 @@ h6 {
 
   .lg\:leading-\[55px\]{
     line-height: 55px;
+  }
+
+  .lg\:backdrop-blur-none{
+    --tw-backdrop-blur:  ;
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   }
 }
